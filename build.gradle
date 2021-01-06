@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'groovy'
+}
+
+group 'dev.marcinromanowski'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testImplementation 'org.spockframework:spock-core'
+    testImplementation platform('org.spockframework:spock-bom:2.0-M3-groovy-3.0')
+}
+
+test {
+    useJUnitPlatform()
+}
