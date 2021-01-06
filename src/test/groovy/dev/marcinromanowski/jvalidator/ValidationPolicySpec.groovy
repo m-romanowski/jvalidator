@@ -1,4 +1,4 @@
-package dev.marcinromanowski.jvalidatior
+package dev.marcinromanowski.jvalidator
 
 import spock.lang.Specification
 

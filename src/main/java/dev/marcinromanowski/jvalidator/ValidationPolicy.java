@@ -1,4 +1,4 @@
-package dev.marcinromanowski.jvalidatior;
+package dev.marcinromanowski.jvalidator;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
@@ -7,7 +7,7 @@ import lombok.Getter;
 import java.math.BigDecimal;
 import java.util.regex.Pattern;
 
-import static dev.marcinromanowski.jvalidatior.ValidationFailureReasons.ValidationFailureReason;
+import static dev.marcinromanowski.jvalidator.ValidationFailureReasons.ValidationFailureReason;
 import static java.util.Objects.isNull;
 import static java.util.Objects.nonNull;
 

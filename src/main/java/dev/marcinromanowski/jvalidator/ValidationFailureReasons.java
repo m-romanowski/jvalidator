@@ -1,4 +1,4 @@
-package dev.marcinromanowski.jvalidatior;
+package dev.marcinromanowski.jvalidator;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

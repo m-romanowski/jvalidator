@@ -1,4 +1,4 @@
-package dev.marcinromanowski.jvalidatior
+package dev.marcinromanowski.jvalidator
 
 import groovy.transform.TupleConstructor
 import spock.lang.Specification
