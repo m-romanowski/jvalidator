@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'dev.marcinromanowski'
-version '1.0-SNAPSHOT'
+version '1.0'
 sourceCompatibility = '11'
 
 configurations {
@@ -18,13 +18,13 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.16'
-    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
 
-    testCompileOnly 'org.projectlombok:lombok:1.18.16'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.20'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.20'
     testImplementation 'org.spockframework:spock-core'
-    testImplementation platform('org.spockframework:spock-bom:2.0-M3-groovy-3.0')
+    testImplementation platform('org.spockframework:spock-bom:2.0-groovy-3.0')
 }
 
 test {
